@@ -1,0 +1,5 @@
+f=open("file.txt","r+")
+print(f.read())
+f.write("\n___By Joun Eliya ")
+f.write("From Amroha")
+f.close()

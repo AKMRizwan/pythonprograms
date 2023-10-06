@@ -1,0 +1,16 @@
+import time
+initial=time.time()
+print(initial)
+k=0
+while k<5:
+    print("My name is Optimus Prime")
+    time.sleep(1)
+    k+=1
+    print("While loop ran in ", time.time()-initial,"seconds")
+initial2=time.time()
+for i in range (5):
+    print("My name is BumbleBee")
+    time.sleep(1)
+    print("for loop ran in ",time.time()-initial2)
+localtime=time.asctime(time.localtime(time.time()))
+print(localtime)
